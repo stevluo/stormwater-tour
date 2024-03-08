@@ -1,0 +1,23 @@
+{% extends "tours/base.html" %}
+{% load staticfiles %}
+
+{% block title %}Thank You{% endblock %}
+
+{% block custom_css %}
+<link href="{% static "tours/css/landing_page.css" %}" rel="stylesheet">
+{% endblock %}
+
+{% block container %}
+<div class="cover-inner">
+	{% if tour.feedback_page.thank_you_page.serve_as_html %}
+		{{ tour.feedback_page.thank_you_page.title|safe }}
+		{{ tour.feedback_page.thank_you_page.description|safe }}
+	{% else %}
+	    <h1>{{ tour.feedback_page.thank_you_page.title }}</h1>
+	    <p class="lead">{{ tour.feedback_page.thank_you_page.description|linebreaksbr }}</p>
+	{% endif %}
+    <p class="lead">
+      <a href="{% url 'tours:map_page' tour_slug %}" class="btn btn-lg btn-default" role="button">Back To The Tour!</a>
+    </p>
+</div>
+{% endblock %}

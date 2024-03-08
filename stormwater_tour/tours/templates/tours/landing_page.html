@@ -1,0 +1,35 @@
+{% extends "tours/base.html" %}
+{% load staticfiles %}
+
+{% block title %}Landing Page{% endblock %}
+
+{% block custom_css %}
+<link href="{% static "tours/css/landing_page.css" %}" rel="stylesheet">
+{% endblock %}
+
+{% block container %}
+<div class="cover-inner">
+    {% if tour.landing_page.serve_as_html %}
+        {{ tour.landing_page.title|safe }}
+        {{ tour.landing_page.description|safe }}
+    {% else %}
+        <h1>{{ tour.landing_page.title }}</h1>
+        <p class="lead">
+            {{ tour.landing_page.description|linebreaksbr }}
+        </p>
+    {% endif %}
+    <div class="lead">
+        {% if tour_in_progress %}
+            <a href="{% url 'tours:map_page' tour_slug %}" class="btn btn-lg btn-block btn-primary" role="button">Resume the Tour</a>
+        {% else %}
+            <a href="{% url 'tours:query_current' tour_slug %}" class="btn btn-lg btn-block btn-primary" role="button">Take the Tour</a>
+        {% endif %}
+    </div>
+    <div class="lead">
+        <a class="btn btn-lg btn-block btn-default" href="{% url 'tours:about' tour_slug %}" role="button">About the Project</a>
+    </div>
+    <div class="lead">
+        <a class="btn btn-lg btn-block btn-default" href="{% url 'tours:feedback' tour_slug %}" role="button">Give Us Feedback</a>
+    </div>
+</div>
+{% endblock %}

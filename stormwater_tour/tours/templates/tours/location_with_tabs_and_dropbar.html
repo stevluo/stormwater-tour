@@ -1,0 +1,233 @@
+{% extends "tours/base.html" %}
+{% load staticfiles %}
+
+{% block title %} {{ site.title }} {% endblock %}
+
+{% block custom_css %}
+<link href="{% static "tours/css/location.css" %}" rel="stylesheet">
+<link href="{% static "tours/slick/slick.css" %}" rel="stylesheet">
+<link href="{% static "tours/slick/slick-theme.css" %}" rel="stylesheet">
+{% endblock %}
+
+{% block container %}
+<h3>{{ site.title }}</h3>
+
+{% if site.siteimage_set.all|length > 1 %}
+	<div class="gallery">
+		{% for images in site.siteimage_set.all %}
+	    <div>
+	    	<a href="{{ images.file_location.url }}">
+				<img src="{{ images.file_location.url }}" class="slick-slide" u="image" /> 
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+{% else %}
+	{% for image in site.siteimage_set.all %}
+		<a href="{{ image.file_location.url }}">
+			<img src="{{ image.file_location.url }}" class="slick-slide" u="image" style= "margin: 0px"/> 
+		</a>
+	{% endfor %}
+{% endif %}
+
+{% if site.serve_as_html %}
+	{{ site.description|safe }}
+{% else %}
+	<p style="margin-bottom: 25px;"> {{ site.description }} </p>
+{% endif %}
+
+
+<!-- InfoTabs start -->
+<!-- only visible on desktop -->
+<ul id="tabs" class="nav nav-tabs hidden-xs hidden-sm" data-tabs="tabs">
+{% for tab in info_tabs %}
+	<!-- first tab for the site will be activated -->
+	{% if forloop.first %}
+		<li class ="active hidden-xs hidden-sm"><a href = "#{{ tab.title|cut:" " }}" data-toggle ="tab"> {{ tab.title }} </a></li>
+	{% else %}
+		<!-- every other tab will be hidden or closed -->
+		<li class = "hidden-xs hidden-sm"><a href="#{{ tab.title|cut:" " }}" data-toggle ="tab"> {{ tab.title }} </a></li>
+	{% endif %}
+{% endfor %}
+</ul>
+
+<!-- put information here -->
+<div id="my-tab-content" class="tab-content hidden-xs hidden-sm">
+{% for tab in info_tabs %}
+	<!-- first tabs information -->
+	{% if forloop.first %}
+		<div class="tab-pane active" id="{{ tab.title|cut:" " }}">
+		{% if tab.serve_as_html %}
+			{{ tab.description|safe }}
+		{% else %}
+			<p class ="tab_description"> {{ tab.description|linebreaks }} </p>
+		{% endif %}
+			<div class = "row">
+				{% for panel_element in tab.elements.all %}
+				<div class="col-sm-6 col-md-6">
+					<div class="thumbnail">
+						{% if panel_element.serve_as_html %}
+							{{ panel_element.title|safe }}
+						{% else %}
+							<h3> {{ panel_element.title }} </h3>
+						{% endif %}
+					    	<a href="{{ panel_element.image.url }}">	
+								<img src="{{ panel_element.image.url }}">
+							</a>
+						<div class="caption">
+							{% if panel_element.serve_as_html %}
+								{{ panel_element.description|safe }}
+							{% else %}
+								<p> {{ panel_element.description|linebreaks }} </p>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+				{% if forloop.counter|divisibleby:2 %} 
+					<div class="clearfix visible-md-block visible-lg-block"></div>
+				{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+	{% else %}
+		<!-- every other tabs information -->
+		<div class="tab-pane" id="{{ tab.title|cut:" " }}">
+			{% if tab.serve_as_html %}
+				{{ tab.description|safe }}
+			{% else %}
+				<p class ="tab_description"> {{ tab.description|linebreaks }} </p>
+			{% endif %}
+			<div class = "row">
+				{% for panel_element in tab.elements.all %}
+				<div class="col-sm-6 col-md-6">
+					<div class="thumbnail">
+						{% if panel_element.serve_as_html %}
+							{{ panel_element.title|safe }}
+						{% else %}
+							<h3> {{ panel_element.title }} </h3>
+						{% endif %}
+					    	<a href="{{ panel_element.image.url }}">	
+								<img src="{{ panel_element.image.url }}">
+							</a>
+						<div class="caption">
+							{% if panel_element.serve_as_html %}
+								{{ panel_element.description|safe }}
+							{% else %}
+								<p> {{ panel_element.description|linebreaks }} </p>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+				{% if forloop.counter|divisibleby:2 %} 
+					<div class="clearfix visible-md-block visible-lg-block"></div>
+				{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+	{% endif %}
+{% endfor %}
+</div>
+
+<!-- visible on tablet & phone -->
+<div style="cursor:pointer" class="panel-group hidden-md hidden-lg" id="accordion" role="tablist" aria-multiselectable="true">
+	{% for tab in info_tabs %}
+		{% if forloop.first %}
+			<div class="panel panel-default" data-toggle="collapse" data-target="#collapse0" data-parent="#accordion">
+				<div class="panel-heading" role="tab" id="heading0">
+					<h4 class="panel-title">
+						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+							{{ tab.title }}
+						</a>
+					</h4>
+				</div>
+				<div id="collapse0" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+					<div class="panel-body">
+						{% if tab.serve_as_html %}
+							{{ tab.description|safe }}
+						{% else %}
+							<p> {{ tab.description|linebreaks }} </p>
+						{% endif %}
+						<div class = "row">
+							{% for panel_element in tab.elements.all %}
+								<div class="col-sm-6 col-md-4">
+									<div class="thumbnail">
+										{% if panel_element.serve_as_html %}
+											{{ panel_element.title|safe }}
+										{% else %}
+											<h3> {{ panel_element.title }} </h3>
+										{% endif %}
+									    	<a href="{{ panel_element.image.url }}">	
+												<img src="{{ panel_element.image.url }}">
+											</a>
+										<div class="caption">
+											{% if panel_element.serve_as_html %}
+												{{ panel_element.description|safe }}
+											{% else %}
+												<p> {{ panel_element.description }} </p>
+											{% endif %}
+										</div>
+									</div>
+								</div>
+								{% if forloop.counter|divisibleby:2 %} 
+									<div class="clearfix visible-sm-block"> </div> 
+								{% endif %}
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		{% else %}
+			<div class="panel panel-default" data-toggle="collapse" data-target="#collapse{{ forloop.counter }}" data-parent="#accordion">
+				<div class="panel-heading" role="tab" id="heading{{ forloop.counter }}">
+					<h4 class="panel-title">
+						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ forloop.counter }}" aria-expanded="false" aria-controls="collapse{{forloop.counter}}">
+							{{ tab.title }}
+						</a>
+					</h4>
+				</div>
+				<div id="collapse{{ forloop.counter }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ forloop.counter }}">
+					<div class="panel-body">
+						{% if tab.serve_as_html %}
+							{{ tab.description|safe }}
+						{% else %}
+							<p> {{ tab.description|linebreaks }} </p>
+						{% endif %}
+						<div class = "row">
+							{% for panel_element in tab.elements.all %}
+								<div class="col-sm-6 col-md-4">
+									<div class="thumbnail">
+										{% if panel_element.serve_as_html %}
+											{{ panel_element.title|safe }}
+										{% else %}
+											<h3> {{ panel_element.title }} </h3>
+										{% endif %}
+									    	<a href="{{ panel_element.image.url }}">	
+												<img src="{{ panel_element.image.url }}">
+											</a>
+										<div class="caption">
+											{% if panel_element.serve_as_html %}
+												{{ panel_element.description|safe }}
+											{% else %}
+												<p> {{ panel_element.description }} </p>
+											{% endif %}
+										</div>
+									</div>
+								</div>
+								{% if forloop.counter|divisibleby:2 %} 
+									<div class="clearfix visible-sm-block"> </div> 
+								{% endif %}
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		{% endif %}
+	{% endfor %}
+</div>
+{% endblock %}
+
+{% block custom_js %}
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="{% static "tours/slick/slick.min.js" %}"></script>
+<script type="text/javascript" src="{% static "tours/js/slick_slider.js" %}"></script>
+{% endblock %}

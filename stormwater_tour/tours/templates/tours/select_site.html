@@ -1,0 +1,24 @@
+{% extends "tours/base.html" %}
+{% load staticfiles %}
+
+{% block title %}Select a Site{% endblock %}
+
+{% block custom_css %}
+<link href="{% static "tours/css/landing_page.css" %}" rel="stylesheet">
+{% endblock %}
+
+{% block container %}
+<div class="cover-inner">
+    <p class="lead">Select your current {{ tour.site_nickname }} to begin</p>
+    {% for site in sites %}
+        <div class="lead">
+            <form action="" method="post">
+                {% csrf_token %}
+                <button class="btn btn-lg btn-block btn-primary" type="submit" name="current_site_id" value="{{ site.id }}">
+                    {{ site.title }}
+                </button>
+            </form>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

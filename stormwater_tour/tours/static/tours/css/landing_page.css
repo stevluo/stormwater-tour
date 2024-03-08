@@ -1,0 +1,25 @@
+/*html,
+body {
+    height: 100%;
+}*/
+.cover-inner {
+    text-align: center;
+}
+
+/* Reset width for the fixed position */
+/*@media (min-width: 768px) {
+  body {
+    padding-top: 0px;
+  }
+  .container {
+    display: table;
+    height: 100%;
+    min-height: 100%;
+  }
+  .cover-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 70px;
+  }
+}*/

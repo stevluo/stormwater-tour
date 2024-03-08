@@ -1,0 +1,20 @@
+{% extends "tours/base.html" %}
+{% load staticfiles %}
+
+{% block title %}Query Current Site{% endblock %}
+
+{% block custom_css %}
+<link href="{% static "tours/css/landing_page.css" %}" rel="stylesheet">
+{% endblock %}
+
+{% block container %}
+<div class="cover-inner">
+    <p class="lead">Are you currently at a {{ tour.site_nickname }}?</p>
+    <div class="lead">
+        <a class="btn btn-lg btn-block btn-primary" href="{% url 'tours:select_site' tour_slug %}" role="button">Yes</a>
+    </div>
+    <div class="lead">
+        <a class="btn btn-lg btn-block btn-default" href="{% url 'tours:map_page' tour_slug %}" role="button">No</a>
+    </div>
+</div>
+{% endblock %}

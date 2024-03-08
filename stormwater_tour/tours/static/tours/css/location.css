@@ -1,0 +1,9 @@
+/* help get rid of borders on the thumbnails, mainly for the thumbnails on site pages */
+.thumbnail {
+	border: 0 none;
+	box-shadow: none;
+}
+
+.tab_description {
+	padding-top: 10px;
+}

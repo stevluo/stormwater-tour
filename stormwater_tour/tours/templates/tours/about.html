@@ -1,0 +1,22 @@
+{% extends "tours/base.html" %}
+
+{% block title %}Project Info{% endblock %}
+
+{% block container %}
+<div class="cover">
+	{% if tour.about_page.serve_as_html %}
+		{{ tour.about_page.title|safe }}
+	{% else %}
+		<h1 class="cover-heading text-center">{{ tour.about_page.title }}</h1>
+	{% endif %}
+	{% for elem in about_elements %}
+		{% if elem.serve_as_html %}
+			{{ elem.title|safe }}
+	        {{ elem.description|safe }}
+	    {% else %}
+	        <h3><strong>{{ elem.title }}</strong></h3>
+	        <p>{{ elem.description|linebreaksbr }}</p>
+	    {% endif %}
+	{% endfor %}
+</div>
+{% endblock %}

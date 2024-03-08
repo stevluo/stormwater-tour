@@ -1,0 +1,59 @@
+/*
+ * Navigation
+ */
+
+body {
+  padding-top: 70px;
+}
+
+/* Handle the page width */
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+
+/* Styling for the navbar */
+.navbar {
+  height: 50px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Positioning */
+.masthead .nav-menu {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+.masthead .next-site {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+}
+.masthead .nav-menu a,
+.masthead .next-site a {
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.masthead .nav-menu a:after,
+.masthead .next-site a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 0;
+  height: 2px;
+  background-color: #23527C;
+  content: "";
+  webkit-transition: width .3s;
+         transition: width .3s;
+}
+/* Width extends to 100% when hovered */
+.masthead .nav-menu a:hover:after,
+.masthead .next-site a:hover:after {
+  width: 100%;
+}

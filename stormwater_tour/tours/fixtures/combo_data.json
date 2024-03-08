@@ -1,0 +1,2445 @@
+[
+{
+    "model": "tours.maplocation",
+    "pk": 1,
+    "fields": {
+        "title": "OWP Map Center Location",
+        "latitude": "38.559741",
+        "longitude": "-121.423012"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 2,
+    "fields": {
+        "title": "OWP Map Upper Bound Location",
+        "latitude": "38.570157",
+        "longitude": "-121.417904"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 3,
+    "fields": {
+        "title": "OWP Map Lower Bound Location",
+        "latitude": "38.548772",
+        "longitude": "-121.427581"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 4,
+    "fields": {
+        "title": "Lot 7 Biorentention Location",
+        "latitude": "38.554910",
+        "longitude": "-121.420080"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 5,
+    "fields": {
+        "title": "Lot 7 Bioswale Location",
+        "latitude": "38.555590",
+        "longitude": "-121.420130"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 6,
+    "fields": {
+        "title": "Parking Lot 10 Location",
+        "latitude": "38.553940",
+        "longitude": "-121.422060"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 7,
+    "fields": {
+        "title": "Library Green Location",
+        "latitude": "38.560570",
+        "longitude": "-121.424510"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 8,
+    "fields": {
+        "title": "Calaveras Pavement Location",
+        "latitude": "38.562420",
+        "longitude": "-121.424360"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 9,
+    "fields": {
+        "title": "Calaveras Roof Location",
+        "latitude": "38.562220",
+        "longitude": "-121.425030"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 10,
+    "fields": {
+        "title": "College Town Drive Location",
+        "latitude": "38.556940",
+        "longitude": "-121.425900"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 11,
+    "fields": {
+        "title": "Jed Smith Location",
+        "latitude": "38.557150",
+        "longitude": "-121.419910"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 12,
+    "fields": {
+        "title": "Guy West Bridge Location",
+        "latitude": "38.561670",
+        "longitude": "-121.421210"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 13,
+    "fields": {
+        "title": "OWP Library Map Marker Location",
+        "latitude": "38.559768",
+        "longitude": "-121.423729"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 14,
+    "fields": {
+        "title": "Disney Map Center",
+        "latitude": "33.812161",
+        "longitude": "-117.918978"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 15,
+    "fields": {
+        "title": "Disney Map Northeast Bound",
+        "latitude": "33.818035",
+        "longitude": "-117.911306"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 16,
+    "fields": {
+        "title": "Disney Map Southwest Bound",
+        "latitude": "33.802945",
+        "longitude": "-117.928416"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 17,
+    "fields": {
+        "title": "Main Street U.S.A.",
+        "latitude": "33.810572",
+        "longitude": "-117.918955"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 18,
+    "fields": {
+        "title": "Sleeping Beauty's Castle",
+        "latitude": "33.812698",
+        "longitude": "-117.918977"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 19,
+    "fields": {
+        "title": "King Arthur's Carrousel",
+        "latitude": "33.813195",
+        "longitude": "-117.918985"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 20,
+    "fields": {
+        "title": "Star Tours",
+        "latitude": "33.812089",
+        "longitude": "-117.917892"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 21,
+    "fields": {
+        "title": "Space Mountain",
+        "latitude": "33.811561",
+        "longitude": "-117.917093"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 22,
+    "fields": {
+        "title": "Matterhorn Bobsleds",
+        "latitude": "33.813538",
+        "longitude": "-117.917796"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 23,
+    "fields": {
+        "title": "It's a Small World",
+        "latitude": "33.814378",
+        "longitude": "-117.917869"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 24,
+    "fields": {
+        "title": "Dumbo the Flying Elephant",
+        "latitude": "33.813584",
+        "longitude": "-117.918765"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 25,
+    "fields": {
+        "title": "Thunder Mountain Railroad",
+        "latitude": "33.812489",
+        "longitude": "-117.920448"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 26,
+    "fields": {
+        "title": "Indiana Jones Adventure",
+        "latitude": "33.811415",
+        "longitude": "-117.920323"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 27,
+    "fields": {
+        "title": "Pirates of the Caribbean",
+        "latitude": "33.811477",
+        "longitude": "-117.920868"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 28,
+    "fields": {
+        "title": "The Haunted Mansion",
+        "latitude": "33.811647",
+        "longitude": "-117.921848"
+    }
+},
+{
+    "model": "tours.maplocation",
+    "pk": 29,
+    "fields": {
+        "title": "Splash Mountain",
+        "latitude": "33.812070",
+        "longitude": "-117.922142"
+    }
+},
+{
+    "model": "tours.landingpage",
+    "pk": 1,
+    "fields": {
+        "title": "Sacramento State\u2019s Low Impact Development Tour",
+        "description": "Welcome to Sacramento State and to the stormwater Low Impact Development (LID) tour.  The tour is a guided walk past 7 stormwater management facilities, called Best Management Practices (BMPs), plus the stormwater discharge near the Guy West Bridge.  Although you may think they\u2019re just planters, these BMPs are carefully designed to capture runoff and remove pollutants.  Take the tour to learn more."
+    }
+},
+{
+    "model": "tours.landingpage",
+    "pk": 2,
+    "fields": {
+        "title": "Disneyland Attractions",
+        "description": "Welcome to Disneyland, and our tour of special attractions. The tour is a guided walk past some of our favorite attractions. These attractions are just a small sampling of the total number of attractions in the park, so feel free to stop at any other attraction you encounter during the tour. Take the tour to learn more."
+    }
+},
+{
+    "model": "tours.thankyoupage",
+    "pk": 1,
+    "fields": {
+        "title": "Thank you!",
+        "description": "Thank you for taking this survey!"
+    }
+},
+{
+    "model": "tours.thankyoupage",
+    "pk": 2,
+    "fields": {
+        "title": "Thank You from Disney",
+        "description": "Thank you for taking the time to tell us about your experience!"
+    }
+},
+{
+    "model": "tours.feedbackpage",
+    "pk": 1,
+    "fields": {
+        "title": "We appreciate your feedback!",
+        "description": "Thank you for taking the time to answer a few questions!\r\n\r\n",
+        "feedback_request_checkpoint": 3,
+        "thank_you_page": 1
+    }
+},
+{
+    "model": "tours.feedbackpage",
+    "pk": 2,
+    "fields": {
+        "title": "Disneyland Feedback Page",
+        "description": "Please take a moment to leave feedback regarding your experience today.",
+        "feedback_request_checkpoint": 3,
+        "thank_you_page": 2
+    }
+},
+{
+    "model": "tours.aboutpage",
+    "pk": 1,
+    "fields": {
+        "title": "About the Project"
+    }
+},
+{
+    "model": "tours.aboutpage",
+    "pk": 2,
+    "fields": {
+        "title": "About the Disneyland Attractions Project"
+    }
+},
+{
+    "model": "tours.aboutelement",
+    "pk": 4,
+    "fields": {
+        "about_page": 1,
+        "title": "About The Project",
+        "description": "In 2015, Sacramento State\u2019s Office of Water Programs (OWP) and Facilities Management teamed with the City of Sacramento to install new stormwater management devices on campus.  Major funding was obtained through a Proposition 84 grant from the State Water Resources Control Board.  The City of Sacramento administered the grant. The Office of Water Programs provided technical oversight and Facilities Management provided construction management services. Facilities design and construction were performed by outside contractors, some of whom are listed below.\r\n\r\nThese facilities, also called Best Management Practices (BMPs), are intended to reduce stormwater impacts to the American and Sacramento Rivers. Stormwater runoff from urban development is one of the leading contributors of water quality degradation.  By fitting seamlessly into the built environment and maximizing opportunities to infiltrate runoff and reduce discharges to the rivers, these BMPs follow a design philosophy known as Low Impact Development (LID).\r\n\r\nOne purpose of this project is to provide opportunities for the public and stormwater professionals to see examples of how LID BMPs can be retrofitted to existing parking lots and streets. \u0007 Click here\b to read about design and construction challenges common to all the BMP installations.  Take the tour to see them.\r\n\r\nAll of the BMPs in this project were designed according to the 2015 Sacramento Stormwater Quality Partnership\u2019s Stormwater Quality Design Manual.  Detailed descriptions, drawings, specifications, and lessons learned can be found on our website at http://www.owp.csus.edu/csus-lid/.  \r\n"
+    }
+},
+{
+    "model": "tours.aboutelement",
+    "pk": 5,
+    "fields": {
+        "about_page": 1,
+        "title": "Cooperating Partners",
+        "description": "State Water Resources Control Board\r\nOffice of Water Programs at Sacramento State\r\nSacramento State Facilities Management\r\nCity of Sacramento, Department of Utilities\r\nCounty of Sacramento\r\nCunningham Engineering \r\nUrban Rain Design\r\nDry Creek Conservancy"
+    }
+},
+{
+    "model": "tours.aboutelement",
+    "pk": 6,
+    "fields": {
+        "about_page": 1,
+        "title": "State Funding Disclaimer",
+        "description": "Funding for this project has been provided in full or in part through an agreement with the California State Water Resources Control Board."
+    }
+},
+{
+    "model": "tours.aboutelement",
+    "pk": 7,
+    "fields": {
+        "about_page": 2,
+        "title": "About The Project",
+        "description": "In 2016, team Syntax decided to make an additional tour, so that they could exhibit admin functionality when more than one tour was stored in the database.They did this without asking for permission from anyone affiliated with Disney, and will probably come to regret using Disneyland as an example, but, what's done is done, and it'll be gone before long."
+    }
+},
+{
+    "model": "tours.aboutelement",
+    "pk": 8,
+    "fields": {
+        "about_page": 2,
+        "title": "Disclaimer",
+        "description": "Team Syntax is not being compensated for this tour in any manner; it was created simply to exhibit functionality, and will be deleted from the final iteration of our application. Don't sue us--we have nothing to take."
+    }
+},
+{
+    "model": "tours.mappage",
+    "pk": 1,
+    "fields": {
+        "map_center": 1,
+        "map_default_zoom": 15,
+        "map_upper_bound": 2,
+        "map_lower_bound": 3,
+        "map_min_zoom": 15,
+        "map_max_zoom": 17,
+        "current_site_marker": "",
+        "next_site_marker": "",
+        "site_visited_marker": "",
+        "site_unvisited_marker": ""
+    }
+},
+{
+    "model": "tours.mappage",
+    "pk": 2,
+    "fields": {
+        "map_center": 14,
+        "map_default_zoom": 16,
+        "map_upper_bound": 15,
+        "map_lower_bound": 16,
+        "map_min_zoom": 15,
+        "map_max_zoom": 17,
+        "current_site_marker": "",
+        "next_site_marker": "",
+        "site_visited_marker": "",
+        "site_unvisited_marker": ""
+    }
+},
+{
+    "model": "tours.maplandmarkmarker",
+    "pk": 1,
+    "fields": {
+        "title": "Library Marker",
+        "location": 13,
+        "map_page": 1,
+        "file_location": "tours/images/Library_marker_76pqzbw.png"
+    }
+},
+{
+    "model": "tours.tour",
+    "pk": 1,
+    "fields": {
+        "name": "OWP Facilities Tour",
+        "tour_slug": "owp",
+        "site_nickname": "BMP Site",
+        "travel_method": "WALKING",
+        "landing_page": 1,
+        "feedback_page": 1,
+        "about_page": 1,
+        "map_page": 1
+    }
+},
+{
+    "model": "tours.tour",
+    "pk": 2,
+    "fields": {
+        "name": "The Disneyland Attractions Tour",
+        "tour_slug": "disney",
+        "site_nickname": "Attraction",
+        "travel_method": "WALKING",
+        "landing_page": 2,
+        "feedback_page": 2,
+        "about_page": 2,
+        "map_page": 2
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 1,
+    "fields": {
+        "tour": 1,
+        "title": "Lot 7 Bioretention Planter",
+        "site_slug": "lot_7_bioretention",
+        "location": 4,
+        "simple_directions": "Walk to the south side parking lot 7 planter.",
+        "description": "This is one of several bioretention planters in Parking Lot 7.  Be careful if you are visiting during school hours; the parking lot can be very active.",
+        "tour_order": 1
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 2,
+    "fields": {
+        "tour": 1,
+        "title": "Lot 7 Infiltrating Bioswale",
+        "site_slug": "lot_7_bioswale",
+        "location": 5,
+        "simple_directions": "Move to the south side of campus, parking lot 7.",
+        "description": "The goal of this installation was to change a little-noticed strip of grass into a working stormwater BMP.",
+        "tour_order": 2
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 3,
+    "fields": {
+        "tour": 1,
+        "title": "Lot 10 Bioretention Planter",
+        "site_slug": "parking_lot_10",
+        "location": 6,
+        "simple_directions": "Move to the Lot 10 student parking lot on the south side of Campus.",
+        "description": "This is one of two bioretention planters in Parking Lot 10.  Be careful if you are visiting during school hours; the parking lot can be very active.",
+        "tour_order": 9
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 4,
+    "fields": {
+        "tour": 1,
+        "title": "Library Green Rain Garden and Porous Pavement",
+        "site_slug": "library_green",
+        "location": 7,
+        "simple_directions": "Follow signs to the Campus Library.",
+        "description": "There are two Library Green rain gardens \u2013 one in the lawn and one in the redwood grove with a path made from porous concrete pavement.",
+        "tour_order": 7
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 5,
+    "fields": {
+        "tour": 1,
+        "title": "Calaveras Hall Bioretention Planter and Porous Pavement",
+        "site_slug": "calaveras_pavement",
+        "location": 8,
+        "simple_directions": "Move around to the North Side of Calaveras Hall.",
+        "description": "This is a combination of three BMPs:  (1) downspout disconnection, (2) a bioretention planter, and (3) porous concrete pavement. ",
+        "tour_order": 5
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 6,
+    "fields": {
+        "tour": 1,
+        "title": "Calaveras Hall Biofilter",
+        "site_slug": "calaveras_biofilter",
+        "location": 9,
+        "simple_directions": "Walk to the west side of Calaveras Hall.",
+        "description": "This is a combination of two BMPs:  (1) downspout disconnection followed by a (2) biofilter. \r\n",
+        "tour_order": 6
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 7,
+    "fields": {
+        "tour": 1,
+        "title": "College Town Drive Rain Gardens",
+        "site_slug": "college_town_drive",
+        "location": 10,
+        "simple_directions": "Walk over to College Town Drive.",
+        "description": "The College Town Dr. rain gardens are designed to be an extremely low cost BMP to replace an informal buffer strip between a bike path and the street. ",
+        "tour_order": 8
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 8,
+    "fields": {
+        "tour": 1,
+        "title": "Jed Smith Green Street",
+        "site_slug": "jed_smith",
+        "location": 11,
+        "simple_directions": "Head toward the Jed Smith Green Street.",
+        "description": "Jed Smith Drive has been converted to a \u201cgreen street\u201d with porous pavement parking lanes and streetside rain gardens.",
+        "tour_order": 3
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 9,
+    "fields": {
+        "tour": 1,
+        "title": "Guy West Bridge Outfall",
+        "site_slug": "guy_west_bridge",
+        "location": 12,
+        "simple_directions": "Head toward the Guy West Bridge.",
+        "description": "Crossing the American River between Sacramento State and the Campus Commons neighborhood, the Guy West Bridge is a popular biking and walking destination.",
+        "tour_order": 4
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 10,
+    "fields": {
+        "tour": 2,
+        "title": "Main Street U.S.A.",
+        "site_slug": "main_street_usa",
+        "location": 17,
+        "simple_directions": "Find Main Street U.S.A. on your park map. And then walk there.",
+        "description": "Main Street, U.S.A. is the entry corridor to the park, and is therefore the first \"region\" visitors will travel through.\r\n\r\nThe night-time photos above were taken by John Haas Photography.",
+        "tour_order": 1
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 11,
+    "fields": {
+        "tour": 2,
+        "title": "Sleeping Beauty's Castle",
+        "site_slug": "castle",
+        "location": 18,
+        "simple_directions": "Walk to the center of the park. The castle is best-approached form the South, through Main Street U.S.A. .",
+        "description": "Often considered the defining landmark of Disneyland, Sleeping Beauty's Castle has been the backdrop for countless photos since the park opened.",
+        "tour_order": 2
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 12,
+    "fields": {
+        "tour": 2,
+        "title": "Star Tours",
+        "site_slug": "star_tours",
+        "location": 20,
+        "simple_directions": "Walk to the Southwest corner of Tomorrowland.",
+        "description": "Based on the Star Wars universe, Star Tours invites visitors to take a tour of the forest moon of Endor.",
+        "tour_order": 3
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 13,
+    "fields": {
+        "tour": 2,
+        "title": "Space Mountain",
+        "site_slug": "space_mountain",
+        "location": 21,
+        "simple_directions": "Walk to the Southeast of Tomorrowland, between the Pizza Port and whatever is in the Kodak Theater.",
+        "description": "A White mountain with antennae, Space Mountain is found in Tomorrowland, and is one of the busiest rides in Disneyland.",
+        "tour_order": 4
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 14,
+    "fields": {
+        "tour": 2,
+        "title": "The Matterhorn Bobsleds",
+        "site_slug": "matterhorn",
+        "location": 22,
+        "simple_directions": "Journey to the area between Tomorrowland and Fantasyland. The Matterhorn Bobsleds can be found on the North side of Matterhorn Mountain.",
+        "description": "Standing taller than much of the park, Matterhorn Mountain is an easily recognized landmark, even from outside the main gates.",
+        "tour_order": 5
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 15,
+    "fields": {
+        "tour": 2,
+        "title": "King Arthur Carrousel",
+        "site_slug": "carrousel",
+        "location": 19,
+        "simple_directions": "Walk to the area immediately behind Sleeping Beauty's Castle.",
+        "description": "One of Disneyland's original rides, King Arthur's Carrousel is inspired in part by the Griffith Park carousel.\r\n\r\nNight photo in the slider above taken by John Haas Photography.",
+        "tour_order": 6
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 16,
+    "fields": {
+        "tour": 2,
+        "title": "Dumbo the Flying Elephant",
+        "site_slug": "dumbo",
+        "location": 24,
+        "simple_directions": "Walk to the Northwest corner of Fantasyland.",
+        "description": "Dumbo the Flying Elephant is a classic attraction, and is based off of the Disney movie of the same name.",
+        "tour_order": 7
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 17,
+    "fields": {
+        "tour": 2,
+        "title": "Thunder Mountain Railroad",
+        "site_slug": "thunder_mountain",
+        "location": 25,
+        "simple_directions": "Journey to the Northeast of Frontierland.",
+        "description": "\"This here's the wildest ride in the wilderness!\"",
+        "tour_order": 8
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 18,
+    "fields": {
+        "tour": 2,
+        "title": "Indiana Jones Adventure",
+        "site_slug": "indiana_jones",
+        "location": 26,
+        "simple_directions": "Walk to Adventureland. The Indiana Jones Adventure: Temple of the Forbidden Eye can be found between The Jungle Cruise and Tarzan's Treehouse.",
+        "description": "Join Indiana Jones on his adventure into The Temple of The Forbidden Eye.",
+        "tour_order": 9
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 19,
+    "fields": {
+        "tour": 2,
+        "title": "Pirates of the Caribbean",
+        "site_slug": "pirates",
+        "location": 27,
+        "simple_directions": "Walk to New Orleans Square, and continue under the bridge near Adventureland.",
+        "description": "\"Psst! Avast there! It be too late to alter course, mateys...and there be plundering pirates lurking in every cove, waitin' to board. Sit closer together, and keep your ruddy hands inboard. That be the best way to repel boarders. And mark well me words, mateys...dead men tell no tales!\"",
+        "tour_order": 10
+    }
+},
+{
+    "model": "tours.site",
+    "pk": 20,
+    "fields": {
+        "tour": 2,
+        "title": "The Haunted Mansion",
+        "site_slug": "haunted_mansion",
+        "location": 28,
+        "simple_directions": "Walk to the Western border of New Orleans Square.",
+        "description": "\"When hinges creak in doorless chambers, and strange and frightening sounds echo through the halls; Whenever candlelights flicker where the air is deathly still - that is the time when ghosts are present, practicing their terror with ghoulish delight!\"",
+        "tour_order": 11
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 19,
+    "fields": {
+        "name": "Lot 10 Bioren. Image 1",
+        "site": 3,
+        "file_location": "tours/images/IMG_0144.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 20,
+    "fields": {
+        "name": "Lot 10 Bioren. Image 2",
+        "site": 3,
+        "file_location": "tours/images/IMG_0156.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 21,
+    "fields": {
+        "name": "Lot 10 Bioren. Image 3",
+        "site": 3,
+        "file_location": "tours/images/IMG_0157.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 22,
+    "fields": {
+        "name": "Lot 7 BS Image 1",
+        "site": 2,
+        "file_location": "tours/images/DSC05207_w5KeqaZ.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 23,
+    "fields": {
+        "name": "Lot 7 BS Image 2",
+        "site": 2,
+        "file_location": "tours/images/DSC05209.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 24,
+    "fields": {
+        "name": "Lot 7 BS Image 3",
+        "site": 2,
+        "file_location": "tours/images/DSC05210.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 25,
+    "fields": {
+        "name": "Lot 7 BS Image 4",
+        "site": 2,
+        "file_location": "tours/images/DSC05213_yAEuxGO.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 26,
+    "fields": {
+        "name": "Lot 7 BR Image 1",
+        "site": 1,
+        "file_location": "tours/images/DSC05188.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 27,
+    "fields": {
+        "name": "Lot 7 BR Image 2",
+        "site": 1,
+        "file_location": "tours/images/DSC05190.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 28,
+    "fields": {
+        "name": "Lot 7 BR Image 3",
+        "site": 1,
+        "file_location": "tours/images/rsz_img_0012.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 29,
+    "fields": {
+        "name": "Library Green Image 1",
+        "site": 4,
+        "file_location": "tours/images/DSC05289.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 30,
+    "fields": {
+        "name": "Library Green Image 2",
+        "site": 4,
+        "file_location": "tours/images/DSC05290.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 31,
+    "fields": {
+        "name": "Library Green Image 3",
+        "site": 4,
+        "file_location": "tours/images/DSC05384.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 32,
+    "fields": {
+        "name": "Jed Smith Image 1",
+        "site": 8,
+        "file_location": "tours/images/DSC05216_NP9UuRT.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 33,
+    "fields": {
+        "name": "Jed Smith Image 2",
+        "site": 8,
+        "file_location": "tours/images/DSC05218_N93UKRA.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 34,
+    "fields": {
+        "name": "Jed Smith Image 3",
+        "site": 8,
+        "file_location": "tours/images/DSC05232.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 35,
+    "fields": {
+        "name": "College Town Drive Image 1",
+        "site": 7,
+        "file_location": "tours/images/DSC04015.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 36,
+    "fields": {
+        "name": "College Town Drive Image 2",
+        "site": 7,
+        "file_location": "tours/images/DSC04016.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 37,
+    "fields": {
+        "name": "College Town Drive Image 3",
+        "site": 7,
+        "file_location": "tours/images/DSC04017.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 38,
+    "fields": {
+        "name": "Calaveras Rain Garden Image 1",
+        "site": 6,
+        "file_location": "tours/images/DSC05385.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 39,
+    "fields": {
+        "name": "Calaveras Rain Garden (NORTH)",
+        "site": 5,
+        "file_location": "tours/images/DSC05392.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 52,
+    "fields": {
+        "name": "Jed_Smith_01",
+        "site": 8,
+        "file_location": "tours/images/Jed_Smith_01_TqiMMiw.png"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 53,
+    "fields": {
+        "name": "Jed_Smith_02",
+        "site": 8,
+        "file_location": "tours/images/Jed_Smith_02_ua5VUAp.png"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 56,
+    "fields": {
+        "name": "Jed_Smith_04",
+        "site": 8,
+        "file_location": "tours/images/Jed_Smith_04_EudohH8.png"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 57,
+    "fields": {
+        "name": "Jed_Smith_03",
+        "site": 8,
+        "file_location": "tours/images/Jed_Smith_03_y4g4GOH.png"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 58,
+    "fields": {
+        "name": "Jed_Smith_05",
+        "site": 8,
+        "file_location": "tours/images/Jed_Smith_05_lJ2WYT7.png"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 59,
+    "fields": {
+        "name": "Lot_07_BP_01",
+        "site": 1,
+        "file_location": "tours/images/Lot_07_01_kle9mBy.png"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 60,
+    "fields": {
+        "name": "Lot_10_BP_01",
+        "site": 3,
+        "file_location": "tours/images/Lot_10_Bioretention_01_VBxH0hc.png"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 61,
+    "fields": {
+        "name": "Lot_10_BP_02",
+        "site": 3,
+        "file_location": "tours/images/Lot_10_Bioretention_02_dUNjG3n.png"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 62,
+    "fields": {
+        "name": "Lot_10_BP_03",
+        "site": 3,
+        "file_location": "tours/images/Lot_10_Bioretention_03_1w4WFIM.png"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 63,
+    "fields": {
+        "name": "Lot_10_BP_04",
+        "site": 3,
+        "file_location": "tours/images/Lot_10_Bioretention_04_moJdbF2.png"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 65,
+    "fields": {
+        "name": "Wrong (Replace AFO)",
+        "site": 5,
+        "file_location": "tours/images/DSC05385_bMoL7Lz.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 66,
+    "fields": {
+        "name": "Also Wrong (Replace AFO)",
+        "site": 6,
+        "file_location": "tours/images/DSC05392_DFk5Oz2.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 69,
+    "fields": {
+        "name": "Guy_West_01",
+        "site": 9,
+        "file_location": "tours/images/Guy_West_Bridge_01.png"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 70,
+    "fields": {
+        "name": "Guy_West_Drains",
+        "site": 9,
+        "file_location": "tours/images/Drains_Guy_West.JPG"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 71,
+    "fields": {
+        "name": "Main_Street_Night",
+        "site": 10,
+        "file_location": "tours/images/Main_Street_Night_uuVTKPu.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 72,
+    "fields": {
+        "name": "Main_Street_Spectacle",
+        "site": 10,
+        "file_location": "tours/images/Main_Street_Spectacle_PkjKTiR.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 73,
+    "fields": {
+        "name": "Main_Street_Opening",
+        "site": 10,
+        "file_location": "tours/images/Main_Street_Opening_C0Hn047.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 74,
+    "fields": {
+        "name": "SBC_Fireworks",
+        "site": 11,
+        "file_location": "tours/images/SBC_Fireworks_dorTbHr.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 75,
+    "fields": {
+        "name": "SBC_Moat",
+        "site": 11,
+        "file_location": "tours/images/SBC_Moat_RC9CiXj.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 77,
+    "fields": {
+        "name": "ST_Entrance",
+        "site": 12,
+        "file_location": "tours/images/Star_Tours_Entrance_RIWs1jO.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 78,
+    "fields": {
+        "name": "ST_Bay",
+        "site": 12,
+        "file_location": "tours/images/Star_Tours_Bay_Tw9qKJs.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 79,
+    "fields": {
+        "name": "ST_Season_Force",
+        "site": 12,
+        "file_location": "tours/images/Star_Tours_Season_Force_EVjo79i.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 80,
+    "fields": {
+        "name": "ST_Interior",
+        "site": 12,
+        "file_location": "tours/images/Star_Tours_Vehicle_Interior_EaqGpVh.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 81,
+    "fields": {
+        "name": "SM_Fiftieth",
+        "site": 13,
+        "file_location": "tours/images/Space_Mountain_Fiftieth_novkSLL.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 82,
+    "fields": {
+        "name": "SM_Night",
+        "site": 13,
+        "file_location": "tours/images/Space_Mountain_night_Fegu68D.JPG"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 83,
+    "fields": {
+        "name": "SM_Interior",
+        "site": 13,
+        "file_location": "tours/images/Space_Mountain_Interior_6ugz53N.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 84,
+    "fields": {
+        "name": "Matterhorn",
+        "site": 14,
+        "file_location": "tours/images/mthr123234LARGE_1PPIu7Q.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 85,
+    "fields": {
+        "name": "M_B_Night",
+        "site": 14,
+        "file_location": "tours/images/matterhorn-night-waterfall_GK49icK.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 86,
+    "fields": {
+        "name": "M_B_Entrance",
+        "site": 14,
+        "file_location": "tours/images/Ticket_Matterhorn_entrance_UArtkU5.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 87,
+    "fields": {
+        "name": "MB_Abominable",
+        "site": 14,
+        "file_location": "tours/images/disneyland-matterhorn-bobsleds-abominable-snowman_Zs5py9n.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 88,
+    "fields": {
+        "name": "KAC_01",
+        "site": 15,
+        "file_location": "tours/images/KAC_01_vj53bS7.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 89,
+    "fields": {
+        "name": "KAC_Night",
+        "site": 15,
+        "file_location": "tours/images/KAC_Night_cHheHhU.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 90,
+    "fields": {
+        "name": "KAC_Opening",
+        "site": 15,
+        "file_location": "tours/images/KAC_Opening_Dayish_2rRMQy7.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 91,
+    "fields": {
+        "name": "T_M_Train",
+        "site": 17,
+        "file_location": "tours/images/Thunder_Mountain_SoVnCSY.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 92,
+    "fields": {
+        "name": "T_M_Goat",
+        "site": 17,
+        "file_location": "tours/images/Thunder_Mountain_Goat_EAmd6u5.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 93,
+    "fields": {
+        "name": "T_M_Station",
+        "site": 17,
+        "file_location": "tours/images/Thunder_Mountain_Station_BjWKnlI.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 94,
+    "fields": {
+        "name": "Dumbo_01",
+        "site": 16,
+        "file_location": "tours/images/Dumbo1_Iq6CMu1.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 95,
+    "fields": {
+        "name": "Dumbo_02",
+        "site": 16,
+        "file_location": "tours/images/Dumbo2_CIbvizJ.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 96,
+    "fields": {
+        "name": "Dumbo_Opening",
+        "site": 16,
+        "file_location": "tours/images/Dumbo_Opening_T0Jbzvl.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 97,
+    "fields": {
+        "name": "IJ_Entrance",
+        "site": 18,
+        "file_location": "tours/images/IJA_01_O37WS2k.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 98,
+    "fields": {
+        "name": "IJ_Eye",
+        "site": 18,
+        "file_location": "tours/images/IJA_02_sp1n82F.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 99,
+    "fields": {
+        "name": "IJ_Temple",
+        "site": 18,
+        "file_location": "tours/images/IJA_03_cgGodGQ.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 100,
+    "fields": {
+        "name": "PotC_Entrance",
+        "site": 19,
+        "file_location": "tours/images/PotC_Entrance_lz1uTlK.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 101,
+    "fields": {
+        "name": "HM_Entrance",
+        "site": 20,
+        "file_location": "tours/images/Disneyland-Haunted-Mansion_2_Co9YkjH.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 102,
+    "fields": {
+        "name": "HM_Sign",
+        "site": 20,
+        "file_location": "tours/images/HM_Sign_hSFeu5r.jpg"
+    }
+},
+{
+    "model": "tours.siteimage",
+    "pk": 103,
+    "fields": {
+        "name": "HM_Night",
+        "site": 20,
+        "file_location": "tours/images/Disneyland-Haunted-Mansion_uFjKVsm.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 1,
+    "fields": {
+        "title": "Porous Pavement",
+        "description": "Click here for more details on porous concrete pavement. ",
+        "image": "tours/images/porous-pavement-revised.svg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 2,
+    "fields": {
+        "title": "Bioretention Planter",
+        "description": "Click here for more details on bioretention planters. ",
+        "image": "tours/images/bioretention-planter-revised.svg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 3,
+    "fields": {
+        "title": "Planter Side-Section",
+        "description": " ",
+        "image": "tours/images/bioretention.png"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 4,
+    "fields": {
+        "title": "Unlined Rain Garden",
+        "description": "Click here for more details on rain gardens. ",
+        "image": "tours/images/unlined-rain-garden-revised.svg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 5,
+    "fields": {
+        "title": "Lined Rain Gardens",
+        "description": "Click here for more details on rain gardens. ",
+        "image": "tours/images/lined-rain-garden-revised.svg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 6,
+    "fields": {
+        "title": "Bioswale",
+        "description": "Click here for more details on an infitrating bioswale. ",
+        "image": "tours/images/IMG_0020.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 7,
+    "fields": {
+        "title": "Library Green Garden",
+        "description": "A cross-section of the Library Green Rain Garden and the porous pavement path that runs alongside it.",
+        "image": "tours/images/library-green-raingarden.png"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 8,
+    "fields": {
+        "title": "Porous Pavement Parking Lane",
+        "description": "A photo of the development of the Jed Smith Green Street site. Notice that the porous pavement is lined, so that the infiltrating water doesn't erode the foundation of the surrounding pavement. \r\n\r\nAfter this site was opened, campus delivery services notified the campus that the road was dangerously narrow now that cars were parking on either side of the road. The decision was made to remove parking on one side in order to allow for more spacing. As such, the East side of Jed Smith no longer accommodates parking.",
+        "image": "tours/images/DSC03482.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 9,
+    "fields": {
+        "title": "Existing Drainage",
+        "description": "Existing drainage could not be removed, as the system is still utilized (though in a lesser capacity). Enginers needed to plan ahead, and build around the existing system.",
+        "image": "tours/images/DSC02918.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 10,
+    "fields": {
+        "title": "Machinery",
+        "description": "Due to the weight of heavy machinery, and the role it can play in compacting underlying soils, it was requested that crews not such machinery. The message wasn't always passed down to those who were actually doing the work.",
+        "image": "tours/images/DSC02857.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 11,
+    "fields": {
+        "title": "Mislabeled Drawings",
+        "description": "Sometimes during excavation of a site, you find that previous contractors have mislabeled their drawings, which can lead to the unearthing of drainage pipes that are declared to be more than twenty feet away.",
+        "image": "tours/images/DSC02247.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 12,
+    "fields": {
+        "title": "Pathway",
+        "description": "Here, a backhoe carves out what would become the porous pavement pathway that leads through the Library Green.",
+        "image": "tours/images/DSC02998.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 13,
+    "fields": {
+        "title": "Gutter Cutouts",
+        "description": "Gutter Cutouts allow water that would normally have either been trapped on the road or funneled into the drainage system to instead run off of the road, and flow into the rain gardens that line College Town Drive.",
+        "image": "tours/images/DSC03567.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 14,
+    "fields": {
+        "title": "Curbside Cutouts",
+        "description": "Curbside cutouts allow water that would normally have been directed into the existing drainage system to instead drain into the newly installed bioretention planters. Doing so prevents hundreds, if not thousands, of gallons of water from being pumped into the American River.",
+        "image": "tours/images/DSC02608.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 15,
+    "fields": {
+        "title": "Rain Garden",
+        "description": "The Calaveras Hall Rain garden is specially designed, with every effort made to lead the water far away from the building's foundation",
+        "image": "tours/images/ch-raingarden.png"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 16,
+    "fields": {
+        "title": "Previous Landscaping",
+        "description": "Before the bioswale, this location was covered in grass, which is not drough-tolerant, and so had turned brown. The plants in his bioswale are drought and inundation tolerant, meaning they can go for extended periods of time without watering, as well as be submerged for many days without harm to the plants",
+        "image": "tours/images/DSC01293.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 17,
+    "fields": {
+        "title": "Feather Reed Grass",
+        "description": "Otherwise known as Calamagrostis x Acutiflora 'Karl Floerster'\r\nImage taken by Botaurus (Creative Commons Attribution-Share Alike 2.0 Generic)",
+        "image": "tours/images/Calamagrostis_x_acutiflora_Karl_Foerster.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 18,
+    "fields": {
+        "title": "Berkeley Sedge",
+        "description": "Otherwise known as Carex Divulsa\r\nImage taken by Daderot (Creative Commons CC0 1.0 Universal Public Domain Dedication)",
+        "image": "tours/images/Carex_divulsa_-_Leaning_Pine_Arboretum_-_DSC05828.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 19,
+    "fields": {
+        "title": "Maritime Ceanothus",
+        "description": "Otherwise known as Ceanothus Maritimus ' Valley Violet'\r\nImage taken by Stickpen (Creative Commons CC0 1.0 Universal Public Domain Dedication)",
+        "image": "tours/images/Ceanothus_maritimus_01.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 20,
+    "fields": {
+        "title": "Douglas Iris",
+        "description": "Otherwise known as Iris Douglasiana\r\nImage taken by Curtis Clark (Creative Commons Attribution-Share Alike 2.5 Generic)",
+        "image": "tours/images/Iris_douglasiana_flower_2003-03-17.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 21,
+    "fields": {
+        "title": "Spreading Rush",
+        "description": "Otherwise known as Juncus Patens 'Elk Blue'",
+        "image": "tours/images/Juncus-Patens-Spreading-Rush-RIP.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 22,
+    "fields": {
+        "title": "Lomandra",
+        "description": "Otherwise known as Lomandra Longfolia 'Breeze'",
+        "image": "tours/images/Lomandra-Longifolia-RIP.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 23,
+    "fields": {
+        "title": "Skylark",
+        "description": "Otherwise known as Ceanothus Thyrsiflorus 'Skylark'\r\nImage taken by Hedwig Storch (Creative Commons Attribution-Share Alike 3.0 Unported)",
+        "image": "tours/images/Madeira_Palheiro_Gardens_-_Ceanothus_thyrsiflorus_IMG_2317.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 24,
+    "fields": {
+        "title": "Sticky Monkey Flower",
+        "description": "Otherwise known as Mimulus Aurantiacus\r\nImage taken by Curtis Clark (Creative Commons Attribution-Share Alike 2.5 Generic)",
+        "image": "tours/images/Mimulus_aurantiacus_flowers_2003-03-11.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 25,
+    "fields": {
+        "title": "Deer Grass",
+        "description": "Otherwise known as Muhlenbergia Rigens\r\nImage taken by Attribution: Stan Shebs (Creative Commons Attribution-Share Alike 3.0 Unported)",
+        "image": "tours/images/Muhlenbergia_rigens_form.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 26,
+    "fields": {
+        "title": "California Coffee Berry",
+        "description": "Otherwise known as Rhamnus Californica\r\nImage taken by Evangele19 (Creative Commons Attribution-Share Alike 3.0 Unported)",
+        "image": "tours/images/Rhamnus_californica_californicaIMG_6024.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 27,
+    "fields": {
+        "title": "Indian Hawthorn",
+        "description": "Otherwise known as Rhaphiolepis Indica\r\nImage taken by Stan Shebs (Creative Commons Attribution-Share Alike 3.0 Unported)",
+        "image": "tours/images/Rhaphiolepis_indica_Ballerina_3.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 28,
+    "fields": {
+        "title": "Blue Eyed Grass",
+        "description": "Otherwise known as Sisyrinchium Bellum\r\nImage taken by Curtis Clark (Creative Commons Attribution-Share Alike 2.5 Generic)",
+        "image": "tours/images/Sisyrinchium_bellum_flower_2002-10-10.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 29,
+    "fields": {
+        "title": "Sawleaf Zelkova",
+        "description": "Otherwise known as Zelkova Serrata\r\nImage taken by Lin\u00e91 (Creative Commons Attribution-Share Alike 3.0 Unported)",
+        "image": "tours/images/Zelkova_serrata_02_by_Line1.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 30,
+    "fields": {
+        "title": "Polluted Water",
+        "description": "The photo above shows why the university is cleaning up its stormwater.  The bottle on the left is a sample of American River water collected just upstream of the bridge.  The bottle on the right contains stormwater runoff from the campus.  Typical city runoff looks about the same.   ",
+        "image": "tours/images/GW_Water.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 31,
+    "fields": {
+        "title": "Guy West Construction",
+        "description": "Guy West Bridge during construction.",
+        "image": "tours/images/Guy-West-Bridge_Construction-300x240.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 32,
+    "fields": {
+        "title": "Guy West",
+        "description": "Guy West, circa 1958",
+        "image": "tours/images/Guy-West-Photo-06-300x232.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 33,
+    "fields": {
+        "title": "Dioramas",
+        "description": "Dioramas within Sleeping Beauty's Castle.",
+        "image": "tours/images/SBC_ITE_Dioramas_SEZgInY.JPG"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 34,
+    "fields": {
+        "title": "60th Anniversary",
+        "description": "Photo by John Haas Photography.\r\n\r\nMuch of the park was decorated for Disneyland's 60th anniversary, including Sleeping Beauty's Castle.",
+        "image": "tours/images/Castle_Sixtieth_Night_9q8sMXc.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 35,
+    "fields": {
+        "title": "The Truck",
+        "description": "The Mercedes cargo truck present in the line area is an actual prop from Raiders of the Lost Ark.",
+        "image": "tours/images/IJ_truck_1SgrJNm.JPG"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 36,
+    "fields": {
+        "title": "Eeyore Throwback",
+        "description": "Indiana Jones Adventure was opened on what used to be the Eeyore Parking Lot, and sharp-eyed visitors can glimpse an old Eeyore parking sign above and behind them while watching the \"News of the World\" video.",
+        "image": "tours/images/IJA_ITE_Eeyore.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 37,
+    "fields": {
+        "title": "Holidays",
+        "description": "During the holiday season (Halloween to Christmas), characters from The Nightmare Before Christmas can be seen wandering the grounds.",
+        "image": "tours/images/Haunted_Mansion_NBC_beVQwCv.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 38,
+    "fields": {
+        "title": "G2-9T",
+        "description": "A recognizable hold-over from an older version of the ride, G2-9T greets visitors as they wait in line.",
+        "image": "tours/images/g29t.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 39,
+    "fields": {
+        "title": "Ghost Galaxy",
+        "description": "During the Halloween season some years, Space Mountain is transformed into Ghost Galaxy.",
+        "image": "tours/images/Space_Mountain_Ghost_Galaxy.JPG"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 40,
+    "fields": {
+        "title": "The old Skyway",
+        "description": "The Disney Skyway once passed through the mountain, but has since been removed.",
+        "image": "tours/images/Matterhorn_Skyway.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 41,
+    "fields": {
+        "title": "The Glyphs",
+        "description": "The glyphs on the walls through much of the ride entrance can actually be decoded. When the ride opened, small cards with the cypher were handed to visitors as they entered the line.",
+        "image": "tours/images/IJA_ITE_Cypher_SF6i1n8.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 42,
+    "fields": {
+        "title": "Hall of Portraits",
+        "description": "Many visitors walk past the portraits in the hallway at the base of the elevator, but if one takes the time to view them, the visitor can see that they are constantly changing.",
+        "image": "tours/images/HM_ITE_Hall_of_Portraits_vA9qeWH.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 43,
+    "fields": {
+        "title": "The Sword in the Stone",
+        "description": "Park visitors are welcome to take their turn at attempting to pull the sword from the stone (or anvil).",
+        "image": "tours/images/KAC_ITE_Sword.jpg"
+    }
+},
+{
+    "model": "tours.infotabelement",
+    "pk": 44,
+    "fields": {
+        "title": "Timothy the Mouse",
+        "description": "Timothy the mouse can be found atop the ride.",
+        "image": "tours/images/Dumbo_ITE_Timothy.jpg"
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 26,
+    "fields": {
+        "site": 1,
+        "title": "Site Features",
+        "description": "\u2022\tThis bioretention planter retains and treats stormwater from Parking Lot 7.\r\n\r\n\u2022\tStormwater is treated as it passed through layers of mulch, top soil, and compost-amended soil (see diagram below).\r\n\r\n\u2022\tIn small storms the filtered water infiltrates into the soil, but in larger storms, it accumulates in a gravel layer (underdrain) beneath the filter and is piped to the concrete drain inlet (the box with a metal grate). In a very large storm the planter would fill up and overflow into concrete drain inlet. \r\n\r\n\u2022\tWater entering the drain inlet at this site flows to the campus drainage system and is pumped into the American River near the Guy West Bridge (see later stop on the tour). \r\n\r\n\u2022\tExisting parking lot facilities placed big constraints on designers:\r\n\r\no\tLocate planters around existing drain inlets to avoid re-grading the parking lots. \r\n\r\no\tAvoid placing planters in the travel lanes for cars.\r\n\r\no\tTry to avoid building over underground utilities and around lights that would have to be replaced.  Avoid replacing trees where possible.\r\n\r\no\tMinimize the number of parking stalls lost (a very important design goal).\r\n",
+        "elements": [
+            2,
+            14
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 27,
+    "fields": {
+        "site": 2,
+        "title": "Site Features",
+        "description": "\u2022\tOriginally this was a narrow strip of lawn. To create the bioswale, the grass and underlying soil were removed and replaced with a permeable soil/compost mix (see diagram below).  The surface of the bioswale was purposely set below the street grade to form a shallow depression that collects runoff.  To get the water from the street to the bioswale, the existing curb was cut in several places.\r\n\r\n\u2022\tThe primary treatment mechanism is infiltration of small storms into the ground.  In larger storms, the swale will fill up and overflow into a new drain inlet (the concrete box) that is connected to the campus drainage system.  Before this happens though, the water will pond up, which encourages particulate pollutants to settle out.  This is a secondary treatment mechanism.\r\n\r\n\u2022\tWater entering the drain inlet at this site flows to the campus drainage system and is pumped into the American River near the Guy West Bridge (see later stop on the tour).\r\n\r\n\u2022\tSiting the bioswale here avoided the need to re-grade the street, which minimized costs.  Using simple curb cuts instead of rain inlets is another cost-saving feature.",
+        "elements": [
+            6
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 28,
+    "fields": {
+        "site": 3,
+        "title": "Site Features",
+        "description": "\u2022\tThis bioretention planter is one of two that retain and treat stormwater from Parking Lot 10.\r\n\r\n\u2022\tStormwater is treated as it passed through layers of top soil, and compost-amended soil (see diagram below).\r\n\r\n\u2022\tIn small storms the filtered water infiltrates into the soil, but in larger storms, it accumulates in a gravel layer (underdrain) beneath the filter and is piped to the concrete drain inlet (the box with a metal grate). In a very large storm the planter would fill up and overflow into concrete drain inlet. \r\n\r\n\u2022\tWater from the drain inlets flows to the drainage ditch on the north edge of the parking lot and eventually is pumped into the American River off campus.\r\n\r\n\u2022\tExisting parking lot facilities placed big constraints on designers:\r\n\r\no\tLocate planters around existing drain inlets to avoid re-grading the parking lots. \r\n\r\no\tAvoid placing planters in the travel lanes for cars.\r\n\r\no\tTry to avoid building over underground utilities and around lights that would have to be replaced.  Avoid replacing trees where possible.\r\n\r\no\tMinimize the number of parking stalls lost (a very important design goal).",
+        "elements": [
+            2
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 29,
+    "fields": {
+        "site": 4,
+        "title": "Site Features",
+        "description": "\u2022\tThese two rain gardens accept water from the existing, less pervious grass lawn and from local impervious walkways.  \r\n\r\n\u2022\tRain gardens are designed to provide better infiltration than grass alone. These rain gardens are not lined so that runoff infiltrates into the native soils below (see diagram below).  In large storms water overflows into the existing drainage system and is piped to the American River.  To minimize costs, the gardens were built around existing drain inlets.  \r\n\r\n\u2022\tNear the redwood trees, a porous concrete pavement walkway was installed to replace the existing decomposed granite path.  Water that passes through the porous concrete is stored in an underlying gravel layer and infiltrates into the soil between storms. \r\n\r\n\u2022\tHave a seat on the rocks and take a minute to enjoy this nice spot. ",
+        "elements": [
+            7
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 30,
+    "fields": {
+        "site": 5,
+        "title": "Site Features",
+        "description": "\u2022\tBefore this project, the building downspouts were connected directly to the campus storm drain system.  Runoff from the roof was sent directly to the American River with no treatment.\r\n\r\n\u2022\tFor this BMP, the downspouts were cut and the runoff was channeled away from the building in concrete valley gutters to a new bioretention planter built on the site of an old lawn.  \r\n\r\n\u2022\tPorous concrete pavement was installed adjacent to the rain garden to fill the old lawn area that was not needed for the planter.  Water passing through the pavement infiltrates into the soil.  \r\n\r\n\u2022\tIn small storms the water sent to the bioetention planter is filtered through the media and  infiltrates into the soil  In larger storms, it accumulates in a gravel layer (underdrain) beneath the filter and is piped to the concrete drain inlet (the box with a metal grate).  In a very large storm the planter would fill up and overflow into concrete drain inlet (see diagram below). \r\n\r\n\u2022\tWater entering the drain inlet at this site flows to the campus drainage system and is pumped into the American River near the Guy West Bridge (see later stop on the tour). ",
+        "elements": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 31,
+    "fields": {
+        "site": 6,
+        "title": "Site Features",
+        "description": "\u2022\tBefore this project, the building downspouts were connected directly to the campus storm drain system.  Runoff from the roof was sent directly to the American River with no treatment.\r\n\r\n\u2022\tFor this BMP, the downspouts were cut and the runoff was channeled away from the building in concrete valley gutters to a new concrete-lined biofilter.\r\n\r\n\u2022\tThe filter material is housed in a fully lined concrete casing because of its proximity to the building (see diagram below).  Allowing runoff to infiltrate too close to a building can have adverse impacts on the building\u2019s foundation.  \r\n\r\n\u2022\tAfter filtration through a mix of topsoil and compost, the runoff is directed back to the drainage system that was once directly connected to the roof.  The difference, of course, is that now the water is cleaner.  In large storms, a new drain inlet connected to the campus drainage system captures overflows. \r\n\r\n\u2022\tTo build the filter, a line of juniper bushes had to be removed, but they have been replaced by new plantings of native and/or drought-tolerant vegetation in and around the biofilter.   ",
+        "elements": [
+            5
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 32,
+    "fields": {
+        "site": 7,
+        "title": "Site Features",
+        "description": "\u2022\tAlong College Town Dr. four unlined rain gardens like this one were installed in the grass strip.  The gardens capture runoff and infiltrate it into the ground.    \r\n\r\n\u2022\tThe garden was built by simply excavating a small area of existing lawn and underlying soils, and replacing them with a soil/compost mix (see diagram below).  This mix is more permeable than the lawn it replaced. The surface of the mix was purposely set below the street grade to form a shallow depression.  Two cuts were made in the existing curbs along the road to allow runoff to enter the garden.  If the runoff flow is larger than the garden\u2019s infiltration capacity, the garden fills up, which causes water in the street to bypass the curb cuts and flow to the existing drain inlet.\r\n\r\n\u2022\tBecause it does not require any pipes or channeling, this was an inexpensive BMP.  Actual costs at any particular site depend on local conditions, especially underground facilities.  At this site, the electrical wire for the street lamps had to be moved out from under the basins.\r\n\r\n\u2022\tHow much water infiltrates depends on both the surface material and the permeability of the underlying soil.  Along College Town Dr. the existing soil permeability varies and some rain gardens are infiltrating more than others.  ",
+        "elements": [
+            4,
+            13
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 33,
+    "fields": {
+        "site": 8,
+        "title": "Site Features",
+        "description": "\u2022\tOn the east side of the street, an existing lawn was replaced with a 3-cell rain garden.  On the west side, angled street parking was removed to allow construction of rain gardens and a new sidewalk.  Parallel parking lanes with porous concrete pavement were installed on both sides of the street.  \r\n\r\n\u2022\tThe rain gardens and porous pavement (see diagrams below) collect runoff and infiltrate it into the native soil.  In large storms, runoff that cannot be taken up by the soil overflows into the campus drain system and is conveyed to the American River.   \r\n\r\n\u2022\tThe eastern rain garden is made up of three interconnected cells to preserve the roots of the existing trees.  Tree canopy is valuable for reducing urban heat exchange and encouraging pedestrian and bicycle use.  The existing heritage trees and new gardens are designed to aesthetically complement each other.  Runoff for this eastern garden comes from the parking lot around the police building. \r\n\r\n\u2022\tThe rain garden on the west side receives runoff from the parking lot between Jed Smith Dr. and Parking Structure 3.  The existing storm drains were capped to direct the runoff to the rain garden.  The northern portion of the lot drains into a cobble trench and the runoff flows underground to the rain garden.  \r\n\r\n\u2022\tThe porous concrete pavement in the street is 6 inches deep on top of a 12 inch gravel base.  You can literally pour water on it from a bucket (click here to see video).  \r\n\r\n\u2022\tRetrofitting an existing street involved several design challenges:\r\n\r\no\tTo avoid impacting the roots of existing trees the rain garden on the west side was divided into three parts, connected with underground piping that juts diagonally around the trees.  (Look for shiny metal covers on the west side of the sidewalk between the rain garden cells.)\r\n\r\no\tTo minimize the loss of angled parking stalls, parallel parking was placed in the street and an adjacent off-street parking lot was expanded.\r\n\r\no\tTo reduce the total impervious area and accommodate the parallel parking, 11-foot drive aisles were provided.  Delivery truck and bus drivers, however, have expressed safety concerns and the parallel parking on the east side of the street has been closed while this issue is being addressed.",
+        "elements": [
+            1,
+            2,
+            9
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 34,
+    "fields": {
+        "site": 9,
+        "title": "Site Features",
+        "description": "\u2022\tAt this location, stormwater runoff captured from the eastern side of campus is pumped through the levee and into the American River.  If you walk out onto the bridge to the first tower and look down, you will see the discharge pipes sticking out of the ground.  The concrete pavement down the face of the levees prevents erosion when the pumps are operating.  To see a short video of the discharge, click here. \r\n\r\n\u2022\tThe goal of water quality regulation is to protect the beneficial uses of the river.  Look around.  You will (or might) see several beneficial uses:\r\n\r\no\tMunicipal water supply (the tower upstream is the water intake for the Fairbairn water treatment plant)\r\n\r\no\tBoating, fishing, and swimming\r\n\r\no\tFish habitat, migration and spawning (at the right time of year you can see salmon swimming upstream)\r\n\r\n\u2022\tThe photo below shows why the university is cleaning up its stormwater.  The bottle on the left is a sample of American River water collected just upstream of the bridge.  The bottle on the right contains stormwater runoff from the campus.  Typical city runoff looks about the same.   ",
+        "elements": [
+            30
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 38,
+    "fields": {
+        "site": 4,
+        "title": "Installations",
+        "description": "An assortment of the various installations for this location.",
+        "elements": [
+            1,
+            4
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 39,
+    "fields": {
+        "site": 6,
+        "title": "Installations",
+        "description": "A collection of the various installations for this location",
+        "elements": [
+            5
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 40,
+    "fields": {
+        "site": 8,
+        "title": "Installations",
+        "description": "A collection of the various installations for this location",
+        "elements": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 41,
+    "fields": {
+        "site": 7,
+        "title": "Installations",
+        "description": "A collection of the various installations for this location.",
+        "elements": [
+            4
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 42,
+    "fields": {
+        "site": 5,
+        "title": "Installations",
+        "description": "A collection of the various installations for this location.",
+        "elements": [
+            1,
+            4
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 43,
+    "fields": {
+        "site": 3,
+        "title": "Installations",
+        "description": "A collection of the various installations for this location.",
+        "elements": [
+            2
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 44,
+    "fields": {
+        "site": 1,
+        "title": "Installations",
+        "description": "A collection of the various installations for this location.",
+        "elements": [
+            2
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 45,
+    "fields": {
+        "site": 2,
+        "title": "Installations",
+        "description": "A collection of the various installations for this location.",
+        "elements": [
+            6
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 46,
+    "fields": {
+        "site": 8,
+        "title": "Construction Gallery",
+        "description": "Some photos showing the effort that went into developing this site.",
+        "elements": [
+            8,
+            9
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 47,
+    "fields": {
+        "site": 5,
+        "title": "Construction Gallery",
+        "description": "A look into some of the construction that went into developing this site.",
+        "elements": [
+            10
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 48,
+    "fields": {
+        "site": 1,
+        "title": "Construction Gallery",
+        "description": "A look into the construction efforts that went into developing this site.",
+        "elements": [
+            11
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 49,
+    "fields": {
+        "site": 4,
+        "title": "Construction Gallery",
+        "description": "A look into the construction that went into developing this site.",
+        "elements": [
+            12
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 50,
+    "fields": {
+        "site": 7,
+        "title": "Construction Gallery",
+        "description": "Some insight of what went into developing this site.",
+        "elements": [
+            13
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 51,
+    "fields": {
+        "site": 3,
+        "title": "Construction Gallery",
+        "description": "A look into some of the construction that went into developing this site.",
+        "elements": [
+            14
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 52,
+    "fields": {
+        "site": 2,
+        "title": "Construction Gallery",
+        "description": "A look into the construction that went into developing this site.",
+        "elements": [
+            16
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 53,
+    "fields": {
+        "site": 1,
+        "title": "Plants",
+        "description": "These are the plants at this BMP Site",
+        "elements": [
+            17,
+            18,
+            19,
+            21,
+            22,
+            25,
+            28
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 54,
+    "fields": {
+        "site": 2,
+        "title": "Plants",
+        "description": "These are the plants at this BMP Site",
+        "elements": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            25,
+            28,
+            29
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 55,
+    "fields": {
+        "site": 3,
+        "title": "Plants",
+        "description": "These are the plants at this BMP Site",
+        "elements": [
+            18,
+            22,
+            25,
+            28
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 56,
+    "fields": {
+        "site": 4,
+        "title": "Plants",
+        "description": "These are the plants at this BMP Site",
+        "elements": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            24,
+            25
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 57,
+    "fields": {
+        "site": 5,
+        "title": "Plants",
+        "description": "These are the plants at this BMP Site",
+        "elements": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            24,
+            25,
+            26
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 58,
+    "fields": {
+        "site": 6,
+        "title": "Plants",
+        "description": "These are the plants at this BMP Site",
+        "elements": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            24,
+            25,
+            26
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 59,
+    "fields": {
+        "site": 7,
+        "title": "Plants",
+        "description": "These are the plants at this BMP Site",
+        "elements": [
+            17,
+            20,
+            22,
+            25,
+            28
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 60,
+    "fields": {
+        "site": 8,
+        "title": "Plants",
+        "description": "These are the plants at this BMP Site",
+        "elements": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            28
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 61,
+    "fields": {
+        "site": 9,
+        "title": "About The Bridge",
+        "description": "The Guy West Bridge is named after first president of Sacramento State.  Dr. West, whose background was educational psychology, headed the university for 18 years, from when it opened in 1947 with 253 students in rented quarters at Sacramento City College to 1965 when enrollment topped 10,000 at the current site.  \r\n\r\nThe bridge was designed by Ted D'Amico of the Spink Corporation, a local engineering firm and cost $636,000.  A suspension style bridge was chosen so that the towers could be built on land rather than in the water.  At 1147 feet long, it was the longest pedestrian suspension bridge in the U.S. at the time of its opening in 1967.  Its general design and color, International Orange, are designed to be reminiscent of the Golden Gate Bridge.\r\n",
+        "elements": [
+            31,
+            32
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 62,
+    "fields": {
+        "site": 10,
+        "title": "Interesting Facts",
+        "description": "Every Disney park has a train station above its entrance, with the exception of Tokyo Disney.\r\n\r\nThe Hotel Marceline used to have signage marking it as Marceline Police while was an office for Disneyland Security.",
+        "elements": []
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 63,
+    "fields": {
+        "site": 10,
+        "title": "Notable Sights",
+        "description": "Above the fire station, visitors may notice that one window is always lit. This is out of remembrance of Walt Disney; that room was once his private apartment.",
+        "elements": []
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 64,
+    "fields": {
+        "site": 11,
+        "title": "Interesting Facts",
+        "description": "In both Walt Disney's Magic Kingdom, and Tokyo Disneyland, instead of Sleeping Beauty's Castle, there is instead Cinderella's Castle.\r\n\r\nForced perspective causes the castle to appear taller than its actual height of 77 feet.",
+        "elements": [
+            34
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 65,
+    "fields": {
+        "site": 11,
+        "title": "Notable Sights",
+        "description": "Visitors are able to walk through an interior portion of the castle, where they can view dioramas.",
+        "elements": [
+            33
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 66,
+    "fields": {
+        "site": 12,
+        "title": "History",
+        "description": "Originally opened in 1987, replacing Adventure Thru Inner Space.\r\n\r\nUnderwent extensive refurbishment starting in 2010.\r\n\r\nOpened in its current incarnation in 2011.",
+        "elements": []
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 67,
+    "fields": {
+        "site": 12,
+        "title": "Interesting Facts",
+        "description": "Disney's Hong Kong park is the only park that does not have a version of Star Tours.",
+        "elements": []
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 68,
+    "fields": {
+        "site": 12,
+        "title": "Notable Sights",
+        "description": "During a ride, visitors may potentially visit Tatooine, Coruscant, Hoth, Kashyyk, Naboo, Jakku, and The Death Star.",
+        "elements": [
+            38
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 69,
+    "fields": {
+        "site": 13,
+        "title": "History",
+        "description": "Opened in 1977.\r\n\r\nOne of the final rides on which Walt Disney participated.",
+        "elements": []
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 70,
+    "fields": {
+        "site": 13,
+        "title": "Interesting Facts",
+        "description": "There are five different Space Mountains around the world.\r\n\r\nSpace Mountain is one of four mountain \"landmarks\" in Disneyland, with the other three being Splash Mountain, Big Thunder Mountain, and Matterhorn Mountain.",
+        "elements": []
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 71,
+    "fields": {
+        "site": 13,
+        "title": "Notable Sights",
+        "description": "Depending on the season and current events, Space Mountain undergoes interior changes, taking on themes like Ghost Galaxy (Halloween), and Hyperspace Mountain (Star Wars).",
+        "elements": [
+            39
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 72,
+    "fields": {
+        "site": 14,
+        "title": "History",
+        "description": "Opened in 1959.\r\n\r\nComprised of two steel rollercoasters that intertwine through the course of the ride.",
+        "elements": []
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 73,
+    "fields": {
+        "site": 14,
+        "title": "Interesting Facts",
+        "description": "The ride stands on what was in earlier times referred to as Holiday Hill, before it came to be known as Snow Hill, which in turn became the Matterhorn Mountain.",
+        "elements": [
+            40
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 74,
+    "fields": {
+        "site": 15,
+        "title": "History",
+        "description": "Opened in 1955 as one of Disneyland's original attractions.\r\n\r\nWas originally built in 1875 and operated at Sunnyside Beach Park in Toronto, Ontario.",
+        "elements": []
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 75,
+    "fields": {
+        "site": 15,
+        "title": "Notable Sights",
+        "description": "Just South of the carousel, visitors can find an attempt to lift a sword from a stone.",
+        "elements": [
+            43
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 76,
+    "fields": {
+        "site": 16,
+        "title": "History",
+        "description": "Opened in 1955, one month after the park opened.",
+        "elements": []
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 77,
+    "fields": {
+        "site": 16,
+        "title": "Interesting Facts",
+        "description": "When the attraction originally opened each Dumbo had hinged ears, those these ears failed to operate correctly and the future vehicle \"casts\" had the hinged ears removed a couple of years later.",
+        "elements": [
+            44
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 78,
+    "fields": {
+        "site": 17,
+        "title": "History",
+        "description": "Opened in 1979.",
+        "elements": []
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 79,
+    "fields": {
+        "site": 17,
+        "title": "Interesting Facts",
+        "description": "Some of the items and artifacts dotting the landscape of the ride are authentic.",
+        "elements": []
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 80,
+    "fields": {
+        "site": 17,
+        "title": "Notable Sights",
+        "description": "While on the ride, visitors can catch glimpses of much of Frontierland and New Orleans Square.",
+        "elements": []
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 81,
+    "fields": {
+        "site": 18,
+        "title": "History",
+        "description": "Opened in 1995, and was originally sponsored by AT&T.",
+        "elements": [
+            41
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 82,
+    "fields": {
+        "site": 18,
+        "title": "Notable Sights",
+        "description": "Keep an eye open for these!",
+        "elements": [
+            35,
+            36
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 83,
+    "fields": {
+        "site": 19,
+        "title": "History",
+        "description": "Opened in 1967.",
+        "elements": []
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 84,
+    "fields": {
+        "site": 19,
+        "title": "Interesting Facts",
+        "description": "Pirates of the Caribbean was the final attraction that Walt Disney participated in designing.\r\n\r\nWhen the ride opened, some of the skeletons were not fake, though due to degradation over many years, they had to be replaced with props.",
+        "elements": []
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 85,
+    "fields": {
+        "site": 20,
+        "title": "History",
+        "description": "Opened in 1969.",
+        "elements": []
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 86,
+    "fields": {
+        "site": 20,
+        "title": "Interesting Facts",
+        "description": "Partially inspired by the Winchester Mystery House.",
+        "elements": [
+            37
+        ]
+    }
+},
+{
+    "model": "tours.infotab",
+    "pk": 87,
+    "fields": {
+        "site": 20,
+        "title": "Notable Sights",
+        "description": "Read the Tombstones if you have the time.",
+        "elements": [
+            42
+        ]
+    }
+}
+]

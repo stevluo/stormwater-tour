@@ -1,0 +1,22 @@
+{% extends "tours/base.html" %}
+
+{% block title %}Feedback{% endblock %}
+
+{% block container %}
+<div class="cover">
+	<h1 class="cover-heading text-center">{% if feedback_submitted %} Thank you for your feedback, however,<br>you may only submit feedback once.</h1>{% else %}
+		{% if tour.feedback_page.serve_as_html %}
+			{{ tour.feedback_page.title|safe }}
+			{{ tour.feedback_page.description|safe }}
+		{% else %}
+			<h1 class="cover-heading text-center">{{ tour.feedback_page.title }}</h1>
+			<p class="lead text-center">{{ tour.feedback_page.description }}</p>
+		{% endif %}
+	{% endif %}
+</div>
+<form action="" method="post">
+	{% csrf_token %}
+	{% include "tours/forms/feedback_form.html" with form=form %}
+	<button class="btn btn-primary{% if feedback_submitted %} disabled="disabled {% endif %}" type="submit">Submit</button>
+</form>
+{% endblock %}

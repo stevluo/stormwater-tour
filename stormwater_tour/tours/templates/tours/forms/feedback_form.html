@@ -1,0 +1,29 @@
+{% if form.non_field_errors %}
+	{% for error in form.non_field_errors %}
+		<p class="text-center bg-danger text-danger">{{ error }}</p>
+	{% endfor %}
+	{% else %}
+		<p class="help-block text-center">All fields are optional</p>
+{% endif %}
+{% for field in form %}
+	{% if field.errors %}
+		<div class="form-group has-error">
+			{% for error in field.errors %}
+    			<label class="control-label">{{ field.label_tag }}</label>
+    			{{ field }}
+    			<span class="help-block">{{ error }}</span>
+    			{% if field.help_text %}
+        			<p class="help">{{ field.help_text|safe }}</p>
+        		{% endif %}
+    		{% endfor %}
+		</div>
+	{% else %}
+		<!-- No errors have been identified in the form. -->
+	    <div class="form-group">
+	    	{{ field.label_tag }} {{ field }}
+	    	{% if field.help_text %}
+	        <p class="help">{{ field.help_text|safe }}</p>
+	        {% endif %}
+	    </div>
+    {% endif %}
+{% endfor %}
